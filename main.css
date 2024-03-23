@@ -1,0 +1,63 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      width: 100%;
+      height: 100vh;
+      background-image: url(./images/dice-bd.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+}
+.dice__title{
+      font-size: 50px;
+      font-weight: 700;
+      font-style: italic;
+      color: black;
+      text-align: center;
+}
+.dice{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 100px;
+      padding: 10px;
+}
+.img1{
+      width: 180px;
+      height: 180px;
+}
+.img2{
+      width: 180px;
+      height: 180px;
+}
+.dice__play{
+      display: flex;
+      align-items: center;
+      gap: 50px;
+}
+.dice__play h1{
+      font-size: 30px;
+      font-weight: 700;
+      font-style: italic;
+      color: black;
+      text-align: center;
+}
+.diceBtn{
+      width: 200px;
+      padding: 12px 24px;
+      font-size: 20px;
+      color: #000;
+      border: 3px solid black;
+      background-color: transparent;
+      transition: 0.3s;
+      border-radius: 10px;
+}
+.diceBtn:hover{
+      background-color: #000;
+      color: #fff;
+      border-radius: 30px;
+}
